@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  var circleOrEx = "o"; // what does this variable represent? This is setting up the 'o' variable.
-  var isGameInProgress = true; // what does this variable represent?  If the game has begun.
-  var winningCombos = { // what does this variable represent? This represents the grid positions; explain what the keys and values represent
+  var circleOrEx = "o"; // what does this variable represent
+  var isGameInProgress = true; // what does this variable represent
+  var winningCombos = { // what does this variable represent; explain what the keys and values represent
     0: [ //0 is key
       [1, 2], //this multiDimensional Array is values
       [3, 6],
@@ -47,13 +47,13 @@ $(document).ready(function() {
     ]
   };
 
-  // Explain what this event does? This sets up the board.
+  // Explain what this event does
   $("#board").find("div").on("click", function() {
 
-    if (isGameInProgress && $(this).hasClass("empty")) { /// Explain these conditions --> it clears out the board
+    if (isGameInProgress && $(this).hasClass("empty")) { /// Explain these conditions
       $(this).removeClass("empty").append("<span class='" + circleOrEx + "'>" + circleOrEx + "</span");
 
-      checkIfWon($(this).index(), circleOrEx); //Explain --> check if it's a winning combination
+      checkIfWon($(this).index(), circleOrEx); //Explain
 
       if (circleOrEx === "o") {
         circleOrEx = "x";
@@ -64,22 +64,22 @@ $(document).ready(function() {
 
   });
 
-  // Explain what this event does --> starts a new game
+  // Explain what this event does
   $("#newGame").on("click", function() {
 
-    var boardSquares = $("#board").find("div"); //what is this variable --> It sets up the squares
+    var boardSquares = $("#board").find("div"); //what is this variable
     var firstEmptyMemorySquare = $(".container").find(".nine").filter(function() { //bonus Explain what filter does
       return $.trim($(this).text()) === "" && $(this).children().length === 0;
     }).not("#board").first();
 
-    if (firstEmptyMemorySquare.length == 1) { //what is this if statement doing? --> it clears out the whole board
+    if (firstEmptyMemorySquare.length == 1) { //what is this if statement doing?
       firstEmptyMemorySquare.html($("#board").html());
     } else {
       $(".container").find(".nine").not("#board").empty();
       $(".container").find(".nine").first().html($("#board").html());
     }
 
-    //Explain this each function --> checks to see if the square is empty
+    //Explain this each function
     boardSquares.each(function() {
       $(this).addClass("empty").empty();
     })
