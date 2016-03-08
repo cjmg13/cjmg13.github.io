@@ -1,62 +1,57 @@
 $(document).ready(function() {
-    var log = $("#log");
-    //click event
-    //user wants to order
-    $("button").on("click", function() {
 
-      log.append($("input").val() + "<br/>")
-        .append($("textarea").val() + "<br/>")
-        .append($("select").val() + "<br/>")
-        .append($("[name='gender']:checked").val() + "<br/>")
-        .append($('input:checkbox:checked').map(function() {
-          return this.value;
-        }).get().join());
+  //$("#log").append("<br>added some text");
+
+  //  $("#").on("", function() {   });
+
+
+  $("#myButton").on("mouseenter", function() {
+    $(this).text("Order Now!");
+    })
+    .on("mouseleave", function() {
+  $(this).text("Click Me!");
+    });
+
+
+
+
+  $("#mySingleLineText").on("focus", function() {
+      $(this).css("background-color", "#F7F8E0")
 
     })
+    .on("blur", function() {
+      $(this).css("background-color", "#FFF")
 
-    //focus event
-    //chnages background to grey
-    $("input[type='text']").on("focus", function() {
-      log.append("User focussed on the input <br/>");
-      $(this).css("background-color", "grey");
+    });
 
-    })
+  $("#mySelect").on("change", function() {
+var val = $(this).val();
+    $("#mySelectMessage").html(val + " is a nice selection!");
 
-    //blur event
-    //chnages background to whilte
-    $("input[type='text']").on("blur", function() {
-      log.append("User moved away from the input <br/>");
-      $(this).css("background-color", "white");
+  });
 
-    })
 
-    //mouseenter mouseleave envent
-    //changes message on the button text
-    $("button").on("mouseenter", function() {
-        log.append("User is hovering on button <br/>");
-        $(this).text("Give me $$$");
+  //user clicks button
+  $("#myButton").on("click", function() {
 
-      })
-      .on("mouseleave", function() {
-        log.append("User is no longer hovering on the button <br/>");
-        $(this).text("Click me");
+    var myInput = $("#mySingleLineText").val();
+    var myTextarea = $("#myTextarea").val();
+    var mySelect = $("#mySelect").val();
+    var myRadio = $("[name='gender']:checked").val();
 
-      })
+    var myCheckValues = [];
+    //each is a jquery loop for objects/arrays
+    $("[name='vehicle']:checked").each(function() {
+      myCheckValues.push($(this).val());
+    });
 
-    //select event
-    //writes some html on the screen depending on the selection
-    $("select").on("change", function() {
-      log.append("User changed selection <br/>");
-      var selInfo = $("#selectInfo"),
-        choice = $(this).val();
+    $("#log").append("<br>User clicked the button");
 
-      if (choice == "value1") {
-        selInfo.html("Good choice!");
-      } else if (choice == "value2") {
-        selInfo.html("That model is great!");
-      } else if (choice == "value3") {
-        selInfo.html("You will love it.");
-      }
-    })
+    $("#log").append("<br>Value of input is: " + myInput);
+    $("#log").append("<br>Value of textarea is: " + myTextarea);
+    $("#log").append("<br>Value of select is: " + mySelect);
+    $("#log").append("<br>Value of radio button is: " + myRadio);
+    $("#log").append("<br>Value of check is: " + myCheckValues.join());
+  })
 
-  }) //end doc ready
+});
