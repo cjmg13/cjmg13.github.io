@@ -10,6 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
+    <!-- Answers and questions were previously not showing up (Did not commit changed/ sync Git), 
+fixed now!  -->
+    
 <body>
 
   <div class="container">
@@ -42,7 +45,7 @@
           <div class="col-md-12">
             <pre>
 
-    <!-- question 1  -->
+    <!-- First question (had trouble getting pyramid to completely show up, not sure if correct  -->
 
 function getTriangle(){
     var str = "";
@@ -229,11 +232,11 @@ function getTriangle(){
                 </pre>
           </div>
           <div class="col-md-12">
-            <!-- Button Div -->
+            <!-- Button  -->
             <button id="q5button" class="btn btn-default" type="submit">Button</button>
           </div>
           <div class="col-md-12">
-            <!-- Results Div -->
+            <!-- Results of question 5 -->
             <div id="q5result"></div>
           </div>
         </div>
@@ -242,7 +245,7 @@ function getTriangle(){
         <div class="row">
           <div class="col-md-12">
             <pre>
-                        <!-- QUESTION SIX PRE CODE -->
+                        <!-- Question 6  -->
                        function range(start, end) {
 
               var arr = [];
@@ -278,7 +281,7 @@ function getTriangle(){
         <div class="row">
           <div class="col-md-12">
             <pre>
-                        <!-- QUESTION SEVEN PRE CODE -->
+                        <!-- Question 7 -->
                               function sum(array) {
               var sm = 0;
               for (var i = 0; i < array.length; i++) {
@@ -311,7 +314,7 @@ function getTriangle(){
         <div class="row">
           <div class="col-md-12">
             <pre>
-                        <!-- QUESTION EIGHT PRE CODE -->
+                        <!-- QUESTION 8 -->
                     function reverseArray(array){
               var rev = []
               for( var i = array.length-1; i >= 0; i--){
@@ -343,7 +346,7 @@ function getTriangle(){
         <div class="row">
           <div class="col-md-12">
             <pre>
-                        <!-- QUESTION NINE PRE CODE -->
+                        <!-- Question 9 -->
                       function arrayReverseInPlace(array) {
               for (var i = 0; i < array.length/2; i++) {
                 var temp = array[i];
@@ -373,7 +376,7 @@ function getTriangle(){
     </div>
   </div>
   <script>
-    //Start of Question 1
+    // Question 1
     $(document).ready(function() {
       // code in the general function to allow question one to run
       //this function prints a triangle of hashtags
@@ -438,7 +441,7 @@ function getTriangle(){
       });
 
 
-      // Start of question 3
+      //question 3
       $("#q3button").on("click", function() {
         $("#q3result").html();
 
@@ -465,7 +468,7 @@ function getTriangle(){
         });
       });
 
-      // Start question 4
+      // question 4
       $("#q4button").on("click", function() {
         $("#q4result").html();
       });
@@ -485,7 +488,7 @@ function getTriangle(){
         $("#q4result").html(x);
       });
 
-      //Start of question 5
+      //question 5
       $("#q5button").on("click", function() {
         $("#q5result").html();
       });
@@ -505,7 +508,7 @@ function getTriangle(){
         var t = countChar(inputOne, inputTwo);
         $("#q5result").html(t);
       });
-        // Start question 6
+        // question 6
       $("#q6button").on("click", function() {
         $("#q6result").html();
       });
@@ -525,7 +528,7 @@ function getTriangle(){
         var rangeAnswer = range(numberOne, numberTwo);
         $("#q6result").html("Answer is:" + rangeAnswer.join());
       });
-              // Start question 7
+              //question 7
       $("#q7button").on("click", function() {
         $("#q7result").html();
       });
@@ -543,7 +546,7 @@ function getTriangle(){
         var sumTotal = sum(range(startNum, endNum))
         $("#q7result").html("Answer is:" + " " + sumTotal);
       });
-              // Start question 8
+              //question 8
       $("#q8button").on("click", function() {
         $("#q8result").html();
       });
@@ -559,7 +562,7 @@ function getTriangle(){
         var list = ["a", "b", "c"]
         $("#q8result").html("Answer is:" + " " + reverseArray(list));
       });
-              // Start question 9
+              //question 9
       $("#q9button").on("click", function() {
         $("#q9result").html();
       });
