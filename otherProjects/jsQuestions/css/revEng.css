@@ -1,7 +1,0 @@
-div[class^="col"] {
-  border: 1px black solid;
-  height: 15px;
-}
-.container {
-  margin-top: 15%;
-}
