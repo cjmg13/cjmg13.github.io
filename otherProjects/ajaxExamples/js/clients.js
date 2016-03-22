@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#getClients").on("click", function() {
       //when u click on the button this function is called
 
-      var url = "http://brookesDaphne.github.io/otherProjects/ajaxExamples/jsonDatabase/clients.json"
+      var url = "http://cjmg13.github.io/otherProjects/ajaxExamples/jsonDatabase/clients.json"
       $.getJSON(url, function(data) {
 
         //table format
