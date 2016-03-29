@@ -1,59 +1,55 @@
-[
-    {
-        "type": "Calico",
-        "name": "Paws",
-        "gender": "Male",
-        "image": "images/cat1.jpg",
-        "comments": [
-            {
-                "username": "AboveAlpha",
-                "stars": 5,
-                "comment": "",
-                
-                "username": "AboveAlpha",
-                "stars": 5,
-                "comment": "",
-                
-                "username": "AboveAlpha",
-                "stars": 5, 
-                "comment": "", 
-            
-    }, {}, {}]
-},
-    {
-        "type": "Tabby",
-        "name": "Mittens",
-        "gender": "Female",
-        "image": "images/cat2.jpg",
-        "comments": [
-            {
-                "username": "BrashTaga",
-                "stars": 5, 
-                "comment": "",
-                "username": "BrashTaga",
-                "stars": 5, 
-                "comment": "", 
-                "username": "BrashTaga",
-                "stars": 5, 
-                "comment": "", 
-    }, {}, {}]
-},
-    {
-        "type": "Siamese",
-        "name": "Robert",
-        "gender": "Male",
-        "image": "images/cat3.jpg",
-        "comments": [
-            {
-                "username": "DragonKam",
-                "stars": 5, 
-                "comment": "",
-                "comment": "",
-                "username": "BrashTaga",
-                "stars": 5, 
-                "comment": "", 
-                "username": "BrashTaga",
-                "stars": 5, 
-                "comment": "", 
-                
-    }, {}, {}]
+[{
+  "type": "Mens",
+  "name": "Jordan 1 Retro 94",
+  "gender": "Sizes 7-12",
+  "image": "images/retroone.jpg",
+  "comments": [{
+    "username": "FlyHigh",
+    "stars": 5,
+    "comment": "Best Js EVER..."
+  }, {
+    "username": "ShoesRLyfe",
+    "stars": 1,
+    "comment": "Not very comfortable shoes"
+  }, {
+    "username": "JsOnMyFeet",
+    "stars": 4,
+    "comment": "Pretty fly"
+  }]
+}, {
+  "type": "Mens",
+  "name": "Air Jordan 11",
+  "gender": "Sizes 6-13",
+  "image": "images/airretro.jpg",
+  "comments": [{
+    "username": "Superman",
+    "stars": 4,
+    "comment": "Can fly high in these!!!"
+  }, {
+    "username": "Batman",
+    "stars": 5,
+    "comment": "Can i buy these?"
+  }, {
+    "username": "RapStar12",
+    "stars": 5,
+    "comment": "Please tell me these are out now!"
+  }]
+}, {
+  "type": "Mens",
+  "name": "Jordan Son of Mars",
+  "gender": "Unavailable",
+  "image": "images/greyredwhite.jpg",
+  "comments": [{
+    "username": "SonofMars",
+    "stars": 2,
+    "comment": "Had to return these, great shoes but make sure you go down a size!"
+  }, {
+    "username": "Hater99",
+    "stars": 1,
+    "comment": "Not as nice as the Jodan 11s"
+  }, {
+    "username": "NewEra",
+    "stars": 5,
+    "comment": "Reminds me of the old Jordan retros"
+  }]
+}]
