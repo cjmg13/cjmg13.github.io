@@ -7,11 +7,11 @@ $(document).ready(function() {
   // mouseleave and mouse enter
   $("#myButton").on("mouseenter", function() {
       $("#log").append("<br>Button mouseenter");
-      $(this).text("Place my Order!");
+      $(this).text("Make Payment");
     })
     .on("mouseleave", function() {
       $("#log").append("<br>Button mouseleave");
-      $(this).text("Book now!");
+      $(this).text("Accept Order");
     });
 
 
@@ -55,17 +55,17 @@ $(document).ready(function() {
     $("#log").append("<br>Name: " + myInput);
     $("#log").append("<br>E-mail: " + myInput2);
     $("#log").append("<br>Additional Requests: " + myTextarea);
-    $("#log").append("<br>Number of Travellers: " + mySelect);
-    $("#log").append("<br>Location: " + myRadio);
-    $("#log").append("<br>Extra Bookings: " + myCheckValues.join());
+    $("#log").append("<br>Size: " + mySelect);
+    $("#log").append("<br>Address: " + myRadio);
+    $("#log").append("<br>Extra Info: " + myCheckValues.join());
 
     //Order Form
     $("#recipt").append("<br>Name: " + myInput);
     $("#recipt").append("<br>E-mail: " + myInput2);
     $("#recipt").append("<br>Additional Requests: " + myTextarea);
-    $("#recipt").append("<br>Number of Travellers: " + mySelect);
-    $("#recipt").append("<br>Location: " + myRadio);
-    $("#recipt").append("<br>Extra Bookings: " + myCheckValues.join());
+    $("#recipt").append("<br>Size: " + mySelect);
+    $("#recipt").append("<br>Address: " + myRadio);
+    $("#recipt").append("<br>Extra Info: " + myCheckValues.join());
 
     //message box appears if you forget to fill out e-mail
     console.log("cats" + myInput2)
@@ -85,9 +85,9 @@ $(document).ready(function() {
     $("#mySelect").on("change", function() {
       $("#mySelectMessage").html("");
       if ($('#mySelect').val() === '1') {
-        $("#mySelectMessage").html("Why not invite another person!");
+        $("#mySelectMessage").html("Size Unavailable");
       } else {
-        alert("Sounds like a fun time!");
+        alert("Size is available!");
 
       }
 

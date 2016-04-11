@@ -1,4 +1,4 @@
-$.get("http://celogio24.github.io/finalProject/partials/nav.html", function(data){
+$.get("http://cjmg13.github.io/finalProject/partials/nav.html", function(data){
 
   $(document).ready(function(){
          // $(".container"){display:none;}
