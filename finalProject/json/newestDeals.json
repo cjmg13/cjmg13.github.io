@@ -1,0 +1,72 @@
+[{
+  "brand": "Adidas",
+  "price": "$110.99",
+  "sizes": "M7-13",
+  "image": "images/shoe1.jpg",
+  "comments": [{
+
+    "username": "ShoeLover",
+    "stars": 5,
+    "comment": "Been Waiting for these to go on sale! Finallyyyy!"
+  }]
+
+}, {
+  "brand": "Adidas",
+  "price": "$79.99",
+  "sizes": "M/F4-12",
+  "image": "images/shoe2.jpg",
+  "comments": [{
+
+    "username": "Collector123",
+    "stars": 2,
+    "comment": "Surprised they re-released these! Took 9 months but im finally getting em"
+  }]
+
+}, {
+  "brand": "Reebok",
+  "price": "$99.99",
+  "sizes": "M9-12",
+  "image": "images/shoe3.jpg",
+  "comments": [{
+
+    "username": "SneakerHead13",
+    "stars": 4,
+    "comment": "Picked these up off this site and I must say that Im buying all my shoes from here!"
+  }]
+
+}, {
+  "brand": "Puma",
+  "price": "$49.99",
+  "sizes": "M/F4-10",
+  "image": "images/shoe4.jpg",
+  "comments": [{
+
+    "username": "Comfort1st",
+    "stars": 3,
+    "comment": "Not the best looking shoes but definetly my favourite lounge around shoes for comfort."
+  }]
+
+}, {
+  "brand": "Jordan",
+  "price": "$229.99",
+  "sizes": "M7-12",
+  "image": "images/shoe5.jpg",
+  "comments": [{
+
+    "username": "BallisLife",
+    "stars": 4,
+    "comment": "This is actually the best place to find Jordans. Looked all over for these and this might be the only site that has every size too! Just wow!"
+  }]
+
+}, {
+  "brand": "Nike",
+  "price": "$149.99",
+  "sizes": "M/F6-11",
+  "image": "images/shoe6.jpg",
+  "comments": [{
+
+    "username": "BigBuyer",
+    "stars": 1,
+    "comment": "Already sold out of my size and these are a new release ): "
+  }]
+}]

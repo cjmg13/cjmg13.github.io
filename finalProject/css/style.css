@@ -1,0 +1,393 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  overflow-x:hidden;
+}
+
+.addPadding {
+margin-left: 20px;
+
+}
+
+.jumbotron {
+	background: black;
+	background: -webkit-linear-gradient(to left, #2BC0E4 , #EAECC6);
+	background: linear-gradient(to left, black , orange, black);
+	text-align: center;
+	border-radius: 0;
+}
+
+.jumbotron h1 {
+	font-family: Didot;
+	font-style: italic;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 80px;
+	color: black;
+}
+
+.jumbotron a {
+	font-family: Didot;
+	font-style: italic;
+	font-weight: 300;
+}
+
+img.shoe, img.jordan20 {
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+
+
+.quick-links {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.quick-links ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+.quick-links ul li a {
+	color: orange; 
+	font-family: Didot;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.button2 {
+  color: black;
+  font-family: Didot;
+  font-style: italic;
+font-weight: 300;
+  background-color: orange;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+  text-align:center;
+}
+
+.button2:hover {
+  color: black;
+  background-color: red;
+  text-decoration: underline;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.panel-body p {
+	padding-bottom: 10px;
+}
+
+p.small {
+	font-family: Didot;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 10pt;
+}
+
+p.small2 {
+	font-family: Didot;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 10pt;
+		padding-left: 10%;
+padding-right: 10%;
+}
+
+form {
+	padding-left: 10%;
+padding-right: 10%;
+}
+
+.progress2{
+	height: 20px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: grey;
+border-radius: 4px;
+	margin-left: 10%;
+margin-right: 10%;
+}
+
+p.small2 a, a:focus  {
+	color: orange;
+text-decoration: none;
+}
+
+p.small2 a:hover  {
+	text-decoration: underline;
+}
+
+.line-separator{
+height:1px;
+background:#717171;
+border-bottom:1px solid #b1b1b1;
+	margin-left: 10%;
+margin-right: 10%;
+margin-top: 30px;
+}
+
+footer {
+	font-family: Didot;
+font-style: italic;
+font-weight: 300;
+text-align: center;
+padding: 30px;
+}
+
+nav .nav-pills {
+	padding-left: 10%;
+padding-right: 10%;
+}
+
+.newestDealsCity, .newestDealsDate, .newestDealsPrice {
+		font-family: Didot;
+font-style: italic;
+font-weight: 300;
+padding-bottom: 5px;
+}
+
+.newestDealsBrand {
+border-top:1px solid #b1b1b1;
+
+}
+
+.newestDealsBrand, .newestDealsSizes, .newestDealsPrice,
+ .dogUsername, .dogComment,
+.dogStars {
+	margin-left: 10%;
+margin-right: 10%;
+}
+
+.newestDealsBrand{
+padding-top: 15px;
+}
+
+img.jordanimage {
+		padding-left: 10%;
+padding-right: 10%;
+}
+
+.dogUsername, .dogComment, .dogStars {
+font-family: "Helvetica Neue";
+line-height: 19pt;
+font-weight: 300;
+}
+
+.dogStars {
+	margin-bottom: 50px;
+}
+
+.form-group {
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.form-group label {
+			font-family: Didot;
+font-style: italic;
+font-weight: 300;
+}
+
+.form-group input, .form-group textarea {
+font-family: "Helvetica Neue";
+line-height: 19pt;
+font-weight: 300;
+}
+
+h3 {
+	  font-family: Didot;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  padding: 10px 15px
+}
+
+h4{
+	font-family: Didot;
+	font-style: italic;
+	font-weight: 300;
+  text-align: left;
+	font-size: 20pt;
+  padding: 10px 15px
+}
+
+.checkbox button {
+	  color: black;
+  background-color: orange;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+    font-family: Didot;
+font-style: italic;
+font-weight: 300;
+padding: 8px 14px;width: 130px;
+font-size: 14px;
+text-shadow:none !important;
+border:none !important;
+box-shadow:none !important;
+border-radius: 4px;
+
+}
+
+.checkbox button:focus {
+  color: black;
+  background-color: orange;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.checkbox button:hover {
+  color: black;
+  text-decoration: underline;
+opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.log {
+	font-family: Didot;
+  font-style: italic;
+  font-weight: 300;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.mySelectMessage {
+	padding-left: 5%;
+padding-right: 5%;
+}
+
+.form-group input {
+width: 200px;
+}
+
+.movingbuttons input {
+margin-right: 5px;
+}
+
+.movingbuttons ul, .checkbox ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	font-family: "Helvetica Neue";
+line-height: 19pt;
+font-weight: 300;
+}
+
+select {
+margin-left: 5%;
+margin-right: 5%;
+font-family: "Helvetica Neue";
+line-height: 19pt;
+font-weight: 300;
+background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_arrow_drop_down_48px-128.png) 96% / 15% no-repeat orange;
+opacity: 0.5;
+filter: alpha(opacity=50);
+width: 200px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   border: 1px solid transparent;
+   height: 34px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-radius: 4px;
+}
+
+.button button {
+	text-align: center;
+}
+
+
+/* start of caption hover effects on gallery page */
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+    font-size: 30px;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 340px;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+    text-align: center;
+}
+
+.cs-style-3 figure {
+	overflow: hidden;
+    text-align: center;
+}
+
+.cs-style-3 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	-webkit-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+
+.cs-style-3 figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
