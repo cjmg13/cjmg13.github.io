@@ -1,5 +1,5 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Impact , sans-serif;
 	  overflow-x:hidden;
 }
 
@@ -17,8 +17,8 @@ margin-left: 20px;
 }
 
 .jumbotron h1 {
-	font-family: Didot;
-	font-style: italic;
+	font-family: Impact;
+	font-style: bold;
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 80px;
@@ -27,7 +27,7 @@ margin-left: 20px;
 
 .jumbotron a {
 	font-family: Didot;
-	font-style: italic;
+	font-style: bold;
 	font-weight: 300;
 }
 
@@ -53,7 +53,7 @@ img.shoe, img.jordan20 {
 .quick-links ul li a {
 	color: orange; 
 	font-family: Didot;
-    font-style: italic;
+    font-style: bold;
     font-weight: 300;
     font-size: 12pt;
 }
@@ -61,7 +61,7 @@ img.shoe, img.jordan20 {
 .button2 {
   color: black;
   font-family: Didot;
-  font-style: italic;
+  font-style: bold;
 font-weight: 300;
   background-color: orange;
   opacity: 0.5;
@@ -86,7 +86,7 @@ font-weight: 300;
 
 p.small {
 	font-family: Didot;
-	font-style: italic;
+	font-style: bold;
 	font-weight: 300;
 	font-size: 10pt;
 }
@@ -135,7 +135,7 @@ margin-top: 30px;
 
 footer {
 	font-family: Didot;
-font-style: italic;
+font-style: bold;
 font-weight: 300;
 text-align: center;
 padding: 30px;
@@ -146,9 +146,9 @@ nav .nav-pills {
 padding-right: 10%;
 }
 
-.newestDealsCity, .newestDealsDate, .newestDealsPrice {
+.newestDealsBrand, .newestDealsSizes, .newestDealsPrice {
 		font-family: Didot;
-font-style: italic;
+font-style: bold;
 font-weight: 300;
 padding-bottom: 5px;
 }
